@@ -1,0 +1,19 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Tajawal', sans-serif;
+  background: #ffffff;
+  color: #1a2e4a;
+  direction: rtl;
+  text-align: right;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+}
